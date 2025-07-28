@@ -1,8 +1,6 @@
-def greet(number):
-    for count in range(number):
-        print("Hello")
+string1 = "hi"
+string2 = "hi"
+string3 = "Hi"
+print(string1 == string2)
+print(string2 == string3)
 
-
-greet(2)
-print()
-greet(5)
